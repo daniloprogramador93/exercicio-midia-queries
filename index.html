@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+    
+        <span id="icone" class="material-icons" onclick="clickMenu()">menu</span>       
+        <menu id="icons">
+            <ul>
+                <li><a href="#">opção 1</a></li>
+                <li><a href="#">opção 2</a></li>
+                <li><a href="#">opção 3</a></li>
+                <li><a href="#">opção 4</a></li>
+                <li><a href="#">opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Trabalhando com Mídia Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta animi fugiat alias dolore vitae doloremque earum iusto harum aliquam iure provident, ut et nostrum nihil quam, in excepturi dolorem. Ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit quo architecto nisi culpa facilis numquam quibusdam itaque non voluptate, officiis quia voluptatum, cum sed? Repellat omnis illum soluta magnam.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat saepe eius, ab est laudantium tempore quo. Voluptatem non excepturi molestias commodi fugit esse odit neque dolores, pariatur accusamus, laudantium consectetur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, eveniet, quis temporibus pariatur a reiciendis voluptate facere iste possimus adipisci, inventore corporis eligendi magnam illo minus excepturi perspiciatis autem nam?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellendus. Eligendi, distinctio obcaecati numquam porro delectus doloribus eius, saepe aperiam amet facere reiciendis, deserunt accusamus laborum voluptates? Ea, repudiandae adipisci! </p>
+        </article>
+    </main>
+    <script>
+       function clickMenu(){
+            if(icons.style.display=='block'){
+                icons.style.display= 'none'
+            }else{
+                icons.style.display= 'block'
+                
+            }
+       } 
+    </script>
+
+</body>
+</html>
